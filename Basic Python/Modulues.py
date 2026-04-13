@@ -33,3 +33,15 @@ num = [1,4,2,4,2,3,5,3,2,3,2,3]
 print(random.shuffle(num), 'print shuffle function')
 print(random.sample(num, 3), 'print sample function')
 
+
+
+print('______________________________________Date Time Import___________________________________')
+
+from datetime import datetime, date, timedelta
+now = datetime.now()
+
+print('print current time', now)
+print(now.year)
+print(now.month)
+print(now.day)
+#print(now.strfime('%B %D, %Y'))
