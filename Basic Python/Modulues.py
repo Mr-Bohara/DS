@@ -45,3 +45,14 @@ print(now.year)
 print(now.month)
 print(now.day)
 #print(now.strfime('%B %D, %Y'))
+
+
+
+print('_______________________________OS IMPORT __________________________________')
+
+import os
+print(os.getcwd(), ' || get current working directory.')
+print(os.listdir('.'), ' || list of files on thi dir')
+print(os.path.exists('test.py'), ' || is test.py file is exists print true or false. ')
+
+os.makedirs()
